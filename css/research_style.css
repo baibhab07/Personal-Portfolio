@@ -1,0 +1,118 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* Navigation Bar */
+nav{
+  font-family: Montserrat;
+  background:#66BFBF;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: #e3fdfd;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  float: left;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: #e3fdfd;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a.active,a:hover{
+  background: #a6e3e9;
+  transition: .5s,
+}
+/* Horizonal border design */
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/*Main section of a webpage */
+.main-section{
+  color: #e3fdfd;
+}
+
+.website-1 h2{
+  padding-top: 50px;
+}
+
+
+.main-section h2, h3, p{
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #66BFBF;
+  font-family: Montserrat;
+}
+
+.main-section a{
+  font-size: 20px;
+  color: #66BFBF;
+}
+
+.main-section p{
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main-section img{
+  width: 700px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+/*footer section of a webpage */
+
+.bottom-container {
+  text-align: center;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.bottom-container a{
+  padding: 20px;
+  font-size: 15px;
+  color: #e3fdfd;
+}
+
+.footer-link{
+  color: #e3fdfd;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 12px;
+  padding: 20px 0;
+}

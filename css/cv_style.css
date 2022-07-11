@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* Navigation Bar */
+nav{
+  font-family: Montserrat;
+  background:#66BFBF;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: #e3fdfd;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  float: left;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: #e3fdfd;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a.active,a:hover{
+  background: #a6e3e9;
+  transition: .5s,
+}
+/*Main section of a page*/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.middle-container h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+.middle-container h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+p{
+  line-height: 2;
+}
+
+.middle-container a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+/*Horizonal line */
+hr {
+  border: dotted #aaaaaa 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.intro-pic img {
+  display: block;
+  margin: auto;
+  }
+
+.intro-pic h1,p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #71c9ce;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.education{
+  padding-top: 50px;
+}
+
+.skills{
+  padding-bottom: 50px;
+}
+
+.top-container{
+  background-color:  #E4F9F5;
+  position: relative;
+  padding-top: 50px;
+}
+/*footer section*/
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.bottom-container a{
+  padding: 20px;
+}
+
+.footer-link{
+  color: #e3fdfd;
+
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 12px;
+  padding: 20px 0;
+}

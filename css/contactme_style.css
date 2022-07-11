@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* Navigation bar */
+nav{
+  font-family: Montserrat;
+  background:#66BFBF;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: #e3fdfd;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  float: left;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: #e3fdfd;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a.active,a:hover{
+  background: #a6e3e9;
+  transition: .5s,
+}
+
+/* Main section of a webpage */
+.body{
+  background: #e3fdfd;
+}
+
+.middle-container{
+  padding-top: 300px;
+}
+/*Contact form design */
+.wrapper{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #66BFBF ;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #a6e3e9;
+  font-family: Montserrat;
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #e3fdfd;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid ##a6e3e9;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #e3fdfd;
+  color: #66BFBF;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+/*error message display*/
+#error_message{
+  margin-bottom: 20px;
+  background: #e3fdfd;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+/*footer section*/
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  font-family: Montserrat;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bottom-container a{
+  padding: 20px;
+
+}
+
+
+.footer-link{
+  color: #e3fdfd;
+  text-align: center;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 12px;
+  padding: 20px 0;
+}
